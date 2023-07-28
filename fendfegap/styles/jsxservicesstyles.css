@@ -1,0 +1,16 @@
+.kids-d-flex{
+    display: flex;
+     flex-direction: column;
+     width: 80%;
+     height: 10px;
+}
+.k1,.k2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    justify-items: center;
+    float: left;
+}
+
+
+

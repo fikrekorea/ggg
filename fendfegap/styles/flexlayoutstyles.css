@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    position:relative;
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+    
+}
+.header{
+    /*background: whitesmoke;*/
+    width: 100%;
+    height: 50px;
+    border-radius:20px;
+    text-align: center;    
+    position: fixed;
+    padding-right: 40px;
+}
+.main-body{
+    width: 100%;
+    height: auto;
+}
+
+.body-section{
+    display: flex;
+    
+}
+.sidebar{
+    background: lightskyblue;
+    width: 30%;
+}
+.s2{
+    background: lightsalmon;
+}
+
+.cnameimglogo{
+    height: 60px;
+    border-radius: 10%;
+}
+.cnametopmenubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: whitesmoke;*/
+    background-color: white;
+    
+}
+.cnameultopmenubar{
+    display: flex;
+    justify-content: space-evenly;
+   gap: 2em;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a:hover{
+    color: rgb(96, 186, 186);
+    text-decoration: underline;
+    transition: .3s;
+}
+.cnamebtncreateaccount{
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 40px;
+    justify-content: center;
+   /* border-radius: 10px;
+    background-color: green;
+    color: white;*/
+    color: green;
+    font-weight: bold;
+    transition: .4s;
+    font-size: 18px;
+}
+.cnamebtncreateaccount:hover{
+    /*background-color: whitesmoke;
+    color: green;*/
+    transition: .9s;
+    transform: scale(1.3);
+}
+.home{
+    background-image:linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.1)), url(../images/a2222.jpg);
+    color: white;
+    height: 71vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.cnamemoto{
+   margin-top: -30px; 
+}
+h2.main{
+   padding: 50px;
+    align-items: center;
+    font-size: 40px;
+}
+h2.second{
+    padding: 10px;
+     align-items: center;
+     font-size: 40px;
+     background-image:linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.1)), url(../images/a22.jpg);
+   color: white;
+ }
+ h2.third{
+    font-weight: normal;
+    padding: 30px;
+    text-align: left;
+ }
+.cnameaboutcontent{
+    border-radius: 100% ;
+    width: 100%;
+    height: 100%;
+    /*border-top: solid lightblue;*/
+    border-bottom: solid lightblue;
+    padding: 20px;
+    background-color: white;
+
+}
+NavLink{
+    justify-content: space-evenly;
+}
+.cnamelogin{
+    color: green;
+    border-left: solid blue;
+    border-right: solid green;
+    border-radius: 50%;
+    padding: 10px;
+}
+.cnamelogout{
+    color: rgb(17, 9, 9)(36, 21, 21);
+    visibility: hidden;
+}

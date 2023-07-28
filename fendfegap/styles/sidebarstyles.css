@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+position: relative;
+list-style-type: none;
+padding: 20px;
+}
+nav ul li a{
+    display: flex;
+    align-items: center;    
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;   
+    height: 30px;
+    font-size: 1rem;       
+    white-space: nowrap;   
+    font-weight: normal;
+    font-family: Georgia;
+    transition: .2s ease-in-out; 
+}
+nav ul li a:hover{
+    /*box-shadow: inset 10px -20px 10px -10px  rgba(173, 216, 230, 1);
+    border-radius: 20%;*/
+    color: rgba(173, 216, 230, 1);
+}
+.hero{
+    padding-left: 300px;
+}
+nav ul ul{
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    top: 0;
+    display: none;
+    background-color: aquamarine;
+    
+}
